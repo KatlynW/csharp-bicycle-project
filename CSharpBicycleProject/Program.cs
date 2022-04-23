@@ -2,8 +2,15 @@
 
 // TestingModel();
 // TestSerialGenerator();
-TestingBikeOptions();
+// TestingBikeOptions();
+OrderBike();
 
+
+void OrderBike()
+{
+    SampleOrder order = new SampleOrder();
+    order.WelcomeMessage();
+}
 
 // Testing Bike Options
 void TestingBikeOptions()
